@@ -97,6 +97,14 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-nav {
     padding: 20px 0;
   }
+  .simply-countdown > .simply-section {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .simply-countdown > .simply-section > div{
+    width: 50px !important;
+    height: 50px !important;
+  }
 }
 .fh5co-nav #fh5co-logo {
   font-size: 40px;
@@ -318,6 +326,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 600px;
+    background-position: right !important;
   }
 }
 .fh5co-cover .display-t,
